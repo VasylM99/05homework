@@ -724,7 +724,17 @@ align-items: center;
 color: #151F32;
 }
 
+.next::after{
+    content: '';
+    position: absolute;
+width: 112px;
+height: 0px;
+left: 1100px;
+margin-top: -50px;
+left: 380px;
 
+border: 7px solid #151F32;
+}
 
 .ekran5{
     display: flex;
