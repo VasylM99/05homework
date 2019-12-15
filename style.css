@@ -118,7 +118,7 @@ a{
 
 .fon-fig{
    display: flex;
-    padding-left: 525px;
+    padding-left: 595px;
     
 }
 
@@ -222,7 +222,7 @@ color: #151F32;
 position: absolute;
 width: 51px;
 height: 48px;
-left: 569px;
+left: 639px;
 top: 500px;
 background: #032F48;
 
@@ -267,7 +267,7 @@ line-height: 26px;
 
 
 .downhed{
-    
+    font-size: 15px;
     color: #C2C2C2;
     margin-right: 6%;
     margin-left: 14.89%;
