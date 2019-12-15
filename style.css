@@ -5,6 +5,284 @@
 }
 
 
+.ekran1{
+    width: 1160px;
+    margin:auto;
+    background-color: #fafafa;
+    top: 0px;
+    left: 60px;
+    height: 710px;
+}
+
+header{
+    display: flex;
+    padding-top: 45px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.menuall{
+    align-items: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    
+}
+
+.menu{
+    margin-left: 80px;
+color: #151F32;
+cursor: pointer;
+}
+
+.heder-s{
+    display: flex;
+    padding-right: 102px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    }
+
+    .sing-up{
+        color: #151F32;
+    }
+a{
+    text-decoration: none;
+   
+}
+
+.shopbag{
+    width: 15px;
+    cursor: pointer;
+    padding-left: 43px;
+}
+
+
+.logo{
+    display: block;
+    width: 65px;
+    padding-left: 100px;
+}
+
+.identic{
+    position: absolute;
+    width: 341px;
+    height: 132px;
+    padding-left: 130px;
+    padding-top: 58px;
+}
+
+
+.linehome{
+  padding-left: 406px;
+  display: block;
+  
+}
+
+.linehome::after{
+    content: '';
+    border: 1px solid #151F32;
+    width: 19px;
+    height: 0px;
+    position: absolute;
+
+}
+
+
+.info{
+    padding-top: 45px;
+    
+}
+
+.lineinde::after{
+    content: '';
+    border: 7px solid #032F48;
+    position: absolute;
+    width: 82px;
+    height: 0px;
+   
+}
+.lineinde{
+    padding-top: 41px;
+    padding-left: 0px;
+    position: absolute;
+}
+
+
+.fon-fig{
+   display: flex;
+    padding-left: 525px;
+    
+}
+
+.text{
+    
+    position: absolute;
+}
+
+.toptext{
+    
+    width: 230px;
+    height: 34px;
+    color: #FFFFFF;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 34px;
+    padding-top: 34px;
+    padding-left: 70px;
+}
+
+
+.downtext{
+  
+    width: 190px;
+    
+    color: #FCD3AC;
+
+
+    font-family: Lato;
+    font-style: normal;
+    
+    font-size: 12px;
+    
+    
+    
+}
+
+.arrow1{
+    display: flex;
+    position: absolute;
+    padding-top: 274px;
+    padding-left: 70px;
+    cursor: pointer;
+}
+
+
+
+.arrowleft1{
+    margin-right: 28px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.button1{
+    display: flex;
+    position: absolute;
+    padding-top: 380px;
+    font-family: Lato;
+    font-style: normal;
+    
+
+}
+
+.start{
+border: none;
+outline: none;
+width: 133px;
+height: 48px;
+cursor: pointer;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.startnow{
+    
+    pointer-events: none;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 20px;
+    align-items: center;
+
+color: #151F32;
+}
+
+
+
+.ekvala{
+    display: flex;
+    
+
+}
+
+.ekva{
+    
+position: absolute;
+width: 51px;
+height: 48px;
+left: 569px;
+top: 500px;
+background: #032F48;
+
+}
+
+.ekvalazer{
+    margin: 14px 16px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.textd{
+    font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 192.3%;
+}
+
+.textdd{
+ padding-top: 226px;
+ 
+width: 193px;
+height: 66px;
+
+color: #344159;
+}
+    
+.heder-down{
+    display: flex;
+align-content: space-between ;
+padding-top: 49px;
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 26px;
+}
+
+
+
+
+.downhed{
+    
+    color: #C2C2C2;
+    margin-right: 6%;
+    margin-left: 14.89%;
+}
+
+
+
+
+
+
+
+.ekran2{
+    height: 700px;
+}
+
 .date{
     display: flex;
     position: absolute;
@@ -181,11 +459,13 @@ left: 380px;
 border: 7px solid #151F32;
 }
 
-
 .ekran3{
+    height: 530px;
+}
+.ekran31{
     position: absolute;
     display: flex;
-    padding-top: 770px;
+    
     padding-left: 208px;
 }
 
@@ -526,12 +806,12 @@ border: 7px solid #151F32;
 
 
 
-
 .ekran4{
+    height: 420px;
+}
+.ekran41{
 display: flex;
-margin-top: 1400px;
 
-    
 }
 
 .fon4{
@@ -605,7 +885,7 @@ color: #FCD3AC;
     display: flex;
     height: 43px;
     width: 43px;
-    top: 1614px;
+    margin-top: 210px;
     left: 265px;
     cursor: pointer;
 }
@@ -616,7 +896,7 @@ color: #FCD3AC;
    
     position: absolute;
     display: flex;
-    top: 1725px;
+    margin-top: 265px;
     left: 265px;
     cursor: pointer;
 }
@@ -737,6 +1017,9 @@ border: 7px solid #151F32;
 }
 
 .ekran5{
+    height: 300px;
+}
+.ekran51{
     display: flex;
     justify-content: center;
     margin-top: 220px;
@@ -910,10 +1193,13 @@ border: 5px solid #151F32;
 
 
 .ekran6{
-    display: flex;
-    margin-top: 350px;
+    height: 500px;
 }
-.fon{
+.ekran61{
+    display: flex;
+    
+}
+.fon51{
     display: flex;
     justify-content: center;
 }
@@ -1044,7 +1330,6 @@ footer{
 }
 
 .footerblok{
-    margin-top: 150px;
     max-width: 940px;
     margin-left: 159px;
     width: 100%;
